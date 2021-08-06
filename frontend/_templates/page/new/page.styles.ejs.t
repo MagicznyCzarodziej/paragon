@@ -1,0 +1,10 @@
+---
+to: src/pages/<%= name %>/<%= name %>.styles.tsx
+---
+import { makeStyles } from '@material-ui/core';
+
+export const useStyles = makeStyles((theme) => ({
+  root: {
+
+  },
+}));
